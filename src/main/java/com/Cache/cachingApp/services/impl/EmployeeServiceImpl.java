@@ -29,8 +29,6 @@ public class EmployeeServiceImpl implements EmployeeService {
 
 
     @Override
-//Make sure this @Cacheable is coming from "import org.springframework.cache.annotation.Cacheable;" and not from Jakarata.persistence
-    // String CACHE_NAME = "employees";
     @Cacheable(cacheNames = CACHE_NAME, key = "#id")
     public EmployeeDto getEmployeeById(Long id) {
         log.info("Fetching employee with id: {}", id);
@@ -44,10 +42,6 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     @Override
-    // String CACHE_NAME = "employees";
-    // When we are creating an employee so we don't know the id for that employee so to define key, As this below method will
-    // return something so whatever this method will return it will put it inside a reserved keyword="result" so from that
-    // result we will be able to get the id like "result.id".
     @CachePut(cacheNames = CACHE_NAME, key = "#result.id")
     @Transactional
     public EmployeeDto createNewEmployee(EmployeeDto employeeDto) {
@@ -68,7 +62,6 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     @Override
-    // String CACHE_NAME = "employees";
     @CachePut(cacheNames = CACHE_NAME, key = "#id")
     public EmployeeDto updateEmployee(Long id, EmployeeDto employeeDto) {
         log.info("Updating employee with id: {}", id);
@@ -92,7 +85,6 @@ public class EmployeeServiceImpl implements EmployeeService {
     }
 
     @Override
-    // String CACHE_NAME = "employees";
     @CacheEvict(cacheNames = CACHE_NAME, key = "#id")
     public void deleteEmployee(Long id) {
         log.info("Deleting employee with id: {}", id);
