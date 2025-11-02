@@ -1,8 +1,6 @@
 <div align="center">
 
-# 
-<img src="[https://cdn-icons-png.flaticon.com/512/5968/5968234.png](https://www.vectorlogo.zone/logos/redis/redis-icon.png
-)" alt="Redis Logo" width="80"/>Spring Boot Caching Application
+# Spring Boot Caching Application
 
 A **Spring Boot Caching Application** that demonstrates the use of **Redis Cloud** for caching frequently accessed data, reducing database load, and improving performance.  
 
