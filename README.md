@@ -2,8 +2,6 @@
 
 A **Spring Boot Caching Application** that demonstrates the use of **Redis Cloud** for caching frequently accessed data, reducing database load, and improving performance.
 
-The project follows a clean **MVC architecture**, includes **Global Exception Handling**, and uses **Optimistic Locking (`@Version`)** to handle concurrent updates safely.
-
 ---
 
 ## 🚀 Features
