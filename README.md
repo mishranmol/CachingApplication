@@ -1,6 +1,8 @@
 <div align="center">
 
-# Spring Boot Caching Application
+# 
+<img src="[https://cdn-icons-png.flaticon.com/512/5968/5968234.png](https://www.vectorlogo.zone/logos/redis/redis-icon.png
+)" alt="Redis Logo" width="80"/>Spring Boot Caching Application
 
 A **Spring Boot Caching Application** that demonstrates the use of **Redis Cloud** for caching frequently accessed data, reducing database load, and improving performance.  
 
@@ -11,7 +13,7 @@ The project follows a clean **MVC architecture**, includes **Global Exception Ha
 ---
 ## 🚀 Features
 
-### ⚙️ ** Redis Caching**
+### ⚙️ **Redis Caching**
 - Integrated **Redis Cloud** to cache frequently used data.  
 - Reduces **database hits** and improves **API response time**.  
 - Configured **TTL (Time-To-Live)** and **TTI (Time-To-Idle)** for cache expiry.  
