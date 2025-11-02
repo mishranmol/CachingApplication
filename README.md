@@ -1,9 +1,16 @@
-#                                                       ⚡ Spring Boot Caching Application
+<div align="center">
 
-A **Spring Boot Caching Application** that demonstrates the use of **Redis Cloud** for caching frequently accessed data, reducing database load, and improving performance.
+<img src="https://cdn-icons-png.flaticon.com/512/5968/5968234.png" alt="Redis Logo" width="80"/>
+
+# 🧠 Spring Boot Caching Application
+
+A **Spring Boot Caching Application** that demonstrates the use of **Redis Cloud** for caching frequently accessed data, reducing database load, and improving performance.  
+
+The project follows a clean **MVC architecture**, includes **Global Exception Handling**, and uses **Optimistic Locking (`@Version`)** to handle concurrent updates safely.  
+
+</div>
 
 ---
-
 ## 🚀 Features
 
 ### ⚙️ **🧠 Redis Caching**
