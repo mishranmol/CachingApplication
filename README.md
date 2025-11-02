@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://cdn-icons-png.flaticon.com/512/5968/5968234.png" alt="Redis Logo" width="80"/>
+<img src="[https://cdn-icons-png.flaticon.com/512/5968/5968234.png](https://www.liblogo.com/img-logo/re310r405-redis-logo-redis-original-wordmark-logo-free-icon-of-devicon.png)" alt="Redis Logo" width="80"/>
 
 # 🧠 Spring Boot Caching Application
 
