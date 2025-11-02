@@ -11,42 +11,46 @@ The project follows a **clean MVC architecture**, includes **Global Exception Ha
 ---
 
 ## 🚀 Features
+---
 
-🧠 Redis Caching
+## ⚙️ **🧠 Redis Caching**
 
-Integrated Redis Cloud to cache frequently used data.
+- Integrated **Redis Cloud** to cache frequently used data.  
+- Reduces **database hits** and improves **API response time**.  
+- Configured **TTL (Time-To-Live)** and **TTI (Time-To-Idle)** for cache expiry.  
+- Added **custom cache key prefix** for better organization.  
 
-Reduces database hits and improves API response time.
+---
 
-Configured TTL (Time-To-Live) and TTI (Time-To-Idle) for cache expiry.
+## 🧩 **Optimistic Locking (@Version)**
 
-Custom cache key prefix for better organization.
+- Added `@Version` field in entities to prevent **data overwrites** in concurrent updates.  
+- Ensures **data consistency** when multiple users modify the same record simultaneously.  
+- Throws an **exception** if an outdated entity tries to update newer data.  
 
-🧩 Optimistic Locking (@Version)
+---
 
-Added @Version field in entities to prevent data overwrites in concurrent updates.
+## 🧱 **MVC Architecture**
 
-Ensures data consistency when multiple users modify the same record simultaneously.
+- Clean separation between **Controller**, **Service**, and **Repository** layers.  
+- Easy to **maintain**, **extend**, and **test**.  
 
-Throws an exception if an outdated entity tries to update newer data.
+---
 
-🧱 MVC Architecture
+## 🚨 **Global Exception Handling**
 
-Clean separation between Controller, Service, and Repository layers.
+- Centralized error handling using `@ControllerAdvice` and `@ExceptionHandler`.  
+- Returns **structured** and **meaningful error messages** to the client.  
 
-Easy to maintain, extend, and test.
+---
 
-🚨 Global Exception Handling
+## ☁️ **Redis Cloud Integration**
 
-Centralized error handling using @ControllerAdvice and @ExceptionHandler.
+- Connected to **Redis Cloud**, a managed Redis service.  
+- Ensures **reliable caching** without hosting Redis locally.  
 
-Returns structured and meaningful error messages to the client.
+---
 
-☁️ Redis Cloud Integration
-
-Connected to Redis Cloud, a managed Redis service.
-
-Ensures reliable caching without hosting Redis locally.
 
 🛠️ Tech Stack
 Backend Framework	Spring Boot
