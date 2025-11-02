@@ -38,8 +38,14 @@ The project follows a clean **MVC architecture**, includes **Global Exception Ha
 
 ---
 
-### ☁️ **Redis Cloud Integration**
-- Connected to **Redis Cloud**, a managed Redis service.  
-- Ensures **reliable caching** without hosting Redis locally.  
+### 🛠️ **Tech Stack**
 
----
+Backend Framework: Spring Boot
+Cache Management: Redis Cloud (Spring Data Redis)
+Architecture: MVC (Model-View-Controller)
+Database: H2 / MySQL
+Concurrency Control: Optimistic Locking (@Version)
+Exception Handling: @ControllerAdvice, @ExceptionHandler
+Build Tool: Maven
+Language: Java
+
