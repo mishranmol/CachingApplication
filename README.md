@@ -40,12 +40,12 @@ The project follows a clean **MVC architecture**, includes **Global Exception Ha
 
 ### 🛠️ **Tech Stack**
 
-Backend Framework: Spring Boot
-Cache Management: Redis Cloud (Spring Data Redis)
-Architecture: MVC (Model-View-Controller)
-Database: H2 / MySQL
-Concurrency Control: Optimistic Locking (@Version)
-Exception Handling: @ControllerAdvice, @ExceptionHandler
-Build Tool: Maven
-Language: Java
+- Backend Framework: Spring Boot
+- Cache Management: Redis Cloud (Spring Data Redis)
+- Architecture: MVC (Model-View-Controller)
+- Database: H2 / MySQL
+- Concurrency Control: Optimistic Locking (@Version)
+- Exception Handling: @ControllerAdvice, @ExceptionHandler
+- Build Tool: Maven
+- Language: Java
 
